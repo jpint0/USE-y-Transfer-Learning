@@ -176,50 +176,30 @@ MET:First (F): Escoge la primera variable de la lista.
 MET:Minimum Remaining Values (MRV): Escoge la variable con el dominio mÃ¡s pequeÃ±o.
 MET:Anti Minimum Remaining Values (AMRV): Escoge la variable con el dominio mÃ¡s grande.
 MET:Occurrence (O): Escoge la variable con el mayor nÃºmero de restricciones.
-RES:Los RES para la obtenciÃ³n del nÃºmero de nodos ocultos para cada red propuesta se pueden visualizar en la tabla 6.
-RES:1, la cual muestra el nÃºmero de nodos ocultos que presento el menor error promediado de diez pruebas realizadas desde 1 nodo oculto hasta 25.
-RES: estos RES pueden apreciarce en la figura 7."
-RES:1, en ella se aprecia como varÃ­a el error de entropÃ­a cruzada promediado considerando desde un nodo oculto hasta doce para cada tipo de red propuesta en este capÃ­tulo.
-RES:Con los datos obtenidos, se puede determinar que las redes neuronal t-s y s-s entrenadas con LDWPSO y QPSO respectivamente entregan un error menor con 5 nodos ocultos, mientras que las redes neuronales t-s y s-s entrenadas con QPSO y LDWPSO repectivamente entregan un menor error con 9 nodos ocultos, por su parte la red neuronal s-s entrenada con LDWQPSO entrega un menor error con 4 nodos ocultos y la red neuronal t-s entrenda con LDWQPSO entrega un menor error con 2 nodos ocultos.
-RES: QPSO y LDWQPSO) con diversos tamaÃ±os de muestras en la etapa de entrenamiento mediante validaciÃ³n cruzada (donde se guardaron los valores de convergencia que presentaron menor error de entropÃ­a cruzada) para los algoritmos se obtuvieron los grÃ¡ficos expuestos en la figura 7.2."
-RES:Como se puede observar en la figura anterior, la convergencia bordea un error de 0.45.
-RES:Visualmente se puede apreciar que LDWPSO muestra un descenso mÃ¡s homogÃ©neo y no tan brusco como QPSO, mientras LDWQPSO muestra un descenso mezcla de los dos algoritmos nombrados anteriormente.
-RES:De la tabla 7.4 se puede rescatar que para el entrenamiento utilizando validaciÃ³n cruzada con un k de 10 en una red neuronal t-s, se tiene que: el menor error, la mayor exactitud, la mayor especificidad y la mayor sensibilidad obtenida del promedio de los RES de las muestras (apreciables en las tablas C.8, C.9 y C.10) se obtuvieron con LDWPSO y 9 nodos ocultos.
-RES:Una vez determinado los pesos de cada red se prosiguiÃ³ a evaluar.
-RES:Los RES de la evaluaciÃ³n para cada una de las redes con sus diversos algoritmos de entrenamiento, y tamaÃ±os de muestra y el promedio de esos RES pueden observarse en las tablas D.8, D.9 y D.10 del anexo D, en ellas se obtiene el error de entropÃ­a cruzada, la exactitud, la especificidad y la sensibilidad, promediando estas mÃ©tricas obtenidas en cada muestra (de 1000, 3000, 10000 y 20000 datos).
-RES:De las tablas D.8, D.9 y D.10 del anexo D se obtiene la tabla 7.3, la cual muestra el tipo de variante de PSO utilizada, ademÃ¡s del error, la exactitud, la especificidad y la sensibilidad promedio para las muestras de datos (1000, 3000, 10000, 20000) de cada red neuronal propuesta.
-RES:En ella se puede apreciar que la red neuronal s-s con 4 nodos ocultos entrenada con LDWQPSO presenta el menor error de entropÃ­a cruzada y la mejor especificidad, mientras que la red neuronal s-s con 5 nodos ocultos entrenada con QPSO presenta la mejor exactitud y sensibilidad.
-RES: se puede observar que el menor error se logra con QPSO con un error cercano a 0.48."
-RES:Si bien el error deja de fluctuar alrededor de la iteraciÃ³n 500, este se empieza a estabilizar cerca de la iteraciÃ³n 200, para LDWQPSO y es similar, mientras que para LDWPSO la convergencia es cercana a la iteraciÃ³n 400 con un descenso mÃ¡s gradual.
-RES:Para una muestra de 20000 el menor error se logra con LDWPSO logrando una convergencia cerca de la iteraciÃ³n 400, a diferencia de QPSO y LDWQPSO, la convergencia es mÃ¡s gradual, para QPSO la convergencia es cercana a la iteraciÃ³n 500, mientras que para LDWQPSO esta se logra cerca de la iteraciÃ³n 300.
-RES:La figura 8.2 deja ver ademÃ¡s que la convergencia tiene un error cada vez mÃ¡s alto a medida que aumenta el nÃºmero de la muestra.
-RES:se puedo apreciar en la tabla 8.3, la red neuronal sigmoidal-softmax con 50 nodos ocultos entrenada con QPSO presenta el menor error de entropÃ­a cruzada, la mejor exactitud y sensibilidad promedios, mientras que la mejor especificidad promedio la presenta la red neuronal sigmoidal-softmax con 44 nodos ocultos entrenada con LDWPSO.
-RES:Desde otra perspectiva, es importante considerar la ganancia que representa cada red neuronal propuesta sobre las demÃ¡s, es por ello que se recurre a la fÃ³rmula de ganancia.
-RES:En la siguiente tabla se puede apreciar la ganancia de exactitud de cada red neuronal propuesta sobre las demÃ¡s.
-RES:De la tabla 8.2 se puede rescatar que para el entrenamiento donde se utilizÃ³ validaciÃ³n cruzada con un k de 10 en una red neuronal sigmoidal-softmax, se tiene que: el menor error, la mayor exactitud, la mayor sensibilidad y la mayor especificidad obtenida del promedio de los RES de las muestras (apreciables en las tablas C.11, C.12 y C.13) se obtuvieron con LDWPSO y 44 nodos ocultos.
-RES:Una vez determinado los pesos de cada red se prosigue a evaluar.
-RES:Los RES de la evaluaciÃ³n para cada una de las redes con sus diversos algoritmos de entrenamiento, y tamaÃ±os de muestras, promediando estos RES como puede apreciarse en las tablas D.11, D.12 y D.13 del anexo D, en ellas se obtiene el error de entropÃ­a cruzada, la exactitud, la especificidad y la sensibilidad, promediando estas mÃ©tricas obtenidas en cada muestra (de 1000, 3000, 10000 y 20000 datos).
-RES:De las tablas D.11, D.12 y D.13 del anexo D se obtiene la tabla 8.3, la cual muestra la variante de PSO utilizada, ademÃ¡s del error, la exactitud, la especificidad y la sensibilidad promedio de las muestras de datos (1000, 3000, 10000, 20000) de cada red neuronal propuesta.
-RES:En ella se puede apreciar que la red neuronal sigmoidal-softmax con 50 nodos ocultos entrenada con QPSO presenta el menor error de entropÃ­a cruzada, la mejor exactitud y sensibilidad promedios, mientras que la mejor especificidad promedio la presenta la red neuronal sigmoidal-softmax con 44 nodos ocultos entrenada con LDWPSO.
-RES:Tabla 8.3 RES promedios de la evaluaciÃ³n en tablas D.11, D.12 y D.13, terceros
-RES:Respecto a la convergencia de los diversos algoritmos (LDWPSO, QPSO y LDWQPSO) con diversos tamaÃ±os de muestras en la etapa de entrenamiento mediante validaciÃ³n cruzada (donde se guardaron los valores de convergencia que presentaron menor error de entropÃ­a cruzada) para los algoritmos se obtuvieron los grÃ¡ficos expuestos en la figura 8.2.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+RESLT:Los RES para la obtenciÃ³n del nÃºmero de nodos ocultos para cada red propuesta se pueden visualizar en la tabla 6.
+RESLT:1, la cual muestra el nÃºmero de nodos ocultos que presento el menor error promediado de diez pruebas realizadas desde 1 nodo oculto hasta 25.
+RESLT: estos RES pueden apreciarce en la figura 7."
+RESLT:1, en ella se aprecia como varÃ­a el error de entropÃ­a cruzada promediado considerando desde un nodo oculto hasta doce para cada tipo de red propuesta en este capÃ­tulo.
+RESLT:Con los datos obtenidos, se puede determinar que las redes neuronal t-s y s-s entrenadas con LDWPSO y QPSO respectivamente entregan un error menor con 5 nodos ocultos, mientras que las redes neuronales t-s y s-s entrenadas con QPSO y LDWPSO repectivamente entregan un menor error con 9 nodos ocultos, por su parte la red neuronal s-s entrenada con LDWQPSO entrega un menor error con 4 nodos ocultos y la red neuronal t-s entrenda con LDWQPSO entrega un menor error con 2 nodos ocultos.
+RESLT: QPSO y LDWQPSO) con diversos tamaÃ±os de muestras en la etapa de entrenamiento mediante validaciÃ³n cruzada (donde se guardaron los valores de convergencia que presentaron menor error de entropÃ­a cruzada) para los algoritmos se obtuvieron los grÃ¡ficos expuestos en la figura 7.2."
+RESLT:Como se puede observar en la figura anterior, la convergencia bordea un error de 0.45.
+RESLT:Visualmente se puede apreciar que LDWPSO muestra un descenso mÃ¡s homogÃ©neo y no tan brusco como QPSO, mientras LDWQPSO muestra un descenso mezcla de los dos algoritmos nombrados anteriormente.
+RESLT:De la tabla 7.4 se puede rescatar que para el entrenamiento utilizando validaciÃ³n cruzada con un k de 10 en una red neuronal t-s, se tiene que: el menor error, la mayor exactitud, la mayor especificidad y la mayor sensibilidad obtenida del promedio de los RES de las muestras (apreciables en las tablas C.8, C.9 y C.10) se obtuvieron con LDWPSO y 9 nodos ocultos.
+RESLT:Una vez determinado los pesos de cada red se prosiguiÃ³ a evaluar.
+RESLT:Los RES de la evaluaciÃ³n para cada una de las redes con sus diversos algoritmos de entrenamiento, y tamaÃ±os de muestra y el promedio de esos RES pueden observarse en las tablas D.8, D.9 y D.10 del anexo D, en ellas se obtiene el error de entropÃ­a cruzada, la exactitud, la especificidad y la sensibilidad, promediando estas mÃ©tricas obtenidas en cada muestra (de 1000, 3000, 10000 y 20000 datos).
+RESLT:De las tablas D.8, D.9 y D.10 del anexo D se obtiene la tabla 7.3, la cual muestra el tipo de variante de PSO utilizada, ademÃ¡s del error, la exactitud, la especificidad y la sensibilidad promedio para las muestras de datos (1000, 3000, 10000, 20000) de cada red neuronal propuesta.
+RESLT:En ella se puede apreciar que la red neuronal s-s con 4 nodos ocultos entrenada con LDWQPSO presenta el menor error de entropÃ­a cruzada y la mejor especificidad, mientras que la red neuronal s-s con 5 nodos ocultos entrenada con QPSO presenta la mejor exactitud y sensibilidad.
+RESLT: se puede observar que el menor error se logra con QPSO con un error cercano a 0.48."
+RESLT:Si bien el error deja de fluctuar alrededor de la iteraciÃ³n 500, este se empieza a estabilizar cerca de la iteraciÃ³n 200, para LDWQPSO y es similar, mientras que para LDWPSO la convergencia es cercana a la iteraciÃ³n 400 con un descenso mÃ¡s gradual.
+RESLT:Para una muestra de 20000 el menor error se logra con LDWPSO logrando una convergencia cerca de la iteraciÃ³n 400, a diferencia de QPSO y LDWQPSO, la convergencia es mÃ¡s gradual, para QPSO la convergencia es cercana a la iteraciÃ³n 500, mientras que para LDWQPSO esta se logra cerca de la iteraciÃ³n 300.
+RESLT:La figura 8.2 deja ver ademÃ¡s que la convergencia tiene un error cada vez mÃ¡s alto a medida que aumenta el nÃºmero de la muestra.
+RESLT:se puedo apreciar en la tabla 8.3, la red neuronal sigmoidal-softmax con 50 nodos ocultos entrenada con QPSO presenta el menor error de entropÃ­a cruzada, la mejor exactitud y sensibilidad promedios, mientras que la mejor especificidad promedio la presenta la red neuronal sigmoidal-softmax con 44 nodos ocultos entrenada con LDWPSO.
+RESLT:Desde otra perspectiva, es importante considerar la ganancia que representa cada red neuronal propuesta sobre las demÃ¡s, es por ello que se recurre a la fÃ³rmula de ganancia.
+RESLT:En la siguiente tabla se puede apreciar la ganancia de exactitud de cada red neuronal propuesta sobre las demÃ¡s.
+RESLT:De la tabla 8.2 se puede rescatar que para el entrenamiento donde se utilizÃ³ validaciÃ³n cruzada con un k de 10 en una red neuronal sigmoidal-softmax, se tiene que: el menor error, la mayor exactitud, la mayor sensibilidad y la mayor especificidad obtenida del promedio de los RES de las muestras (apreciables en las tablas C.11, C.12 y C.13) se obtuvieron con LDWPSO y 44 nodos ocultos.
+RESLT:Una vez determinado los pesos de cada red se prosigue a evaluar.
+RESLT:Los RES de la evaluaciÃ³n para cada una de las redes con sus diversos algoritmos de entrenamiento, y tamaÃ±os de muestras, promediando estos RES como puede apreciarse en las tablas D.11, D.12 y D.13 del anexo D, en ellas se obtiene el error de entropÃ­a cruzada, la exactitud, la especificidad y la sensibilidad, promediando estas mÃ©tricas obtenidas en cada muestra (de 1000, 3000, 10000 y 20000 datos).
+RESLT:De las tablas D.11, D.12 y D.13 del anexo D se obtiene la tabla 8.3, la cual muestra la variante de PSO utilizada, ademÃ¡s del error, la exactitud, la especificidad y la sensibilidad promedio de las muestras de datos (1000, 3000, 10000, 20000) de cada red neuronal propuesta.
+RESLT:En ella se puede apreciar que la red neuronal sigmoidal-softmax con 50 nodos ocultos entrenada con QPSO presenta el menor error de entropÃ­a cruzada, la mejor exactitud y sensibilidad promedios, mientras que la mejor especificidad promedio la presenta la red neuronal sigmoidal-softmax con 44 nodos ocultos entrenada con LDWPSO.
+RESLT:Tabla 8.3 RES promedios de la evaluaciÃ³n en tablas D.11, D.12 y D.13, terceros
+RESLT:Respecto a la convergencia de los diversos algoritmos (LDWPSO, QPSO y LDWQPSO) con diversos tamaÃ±os de muestras en la etapa de entrenamiento mediante validaciÃ³n cruzada (donde se guardaron los valores de convergencia que presentaron menor error de entropÃ­a cruzada) para los algoritmos se obtuvieron los grÃ¡ficos expuestos en la figura 8.2.
