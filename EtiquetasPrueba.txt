@@ -1,48 +1,45 @@
-RESUMEN:La usabilidad en los productos software es una variable primordial en la mediciÃ³n del Ã©xitode un sistema de informaciÃ³n, asÃ­ como en la mediciÃ³n de la calidad de software.
-RESUMEN:Por esto, lausabilidad en dispositivos mÃ³viles tÃ¡ctiles se debe considerar en el desarrollo de nuevos productos,en especial considerando la gran competitividad existente en el mercado.
-RESUMEN:Uno de los mÃ©todos demediciÃ³n de usabilidad mÃ¡s utilizados es la evaluaciÃ³n heurÃ­stica, la cual analiza los productosutilizando principios heurÃ­sticos, o heurÃ­sticas de usabilidad.
-RESUMEN:La calidad de la mediciÃ³n depende,entre otros, de las heurÃ­sticas utilizadas.
-RESUMEN:Por lo anterior, este trabajo presenta una propuesta deprincipios heurÃ­sticos que se ajusta a la naturaleza de los dispositivos mÃ³viles tÃ¡ctiles, permitiendoasÃ­ una evaluaciÃ³n mas precisa y detallada.
-RESUMEN:La investigaciÃ³n se basÃ³ en una metodologÃ­a dedesarrollo de heurÃ­sticas de usabilidad, la cual presenta un proceso iterativo flexible que facilitala construcciÃ³n del conjunto de principios heurÃ­sticos.
-RESUMEN:Luego de tres iteraciones, incluyendo dosetapas de validaciÃ³n, se lograron obtener resultados promisorios.
-RESUMEN:Se requiere analizar mÃ¡s casosde estudio.
-RESUMEN:Palabras Clave: usabilidad, heurÃ­sticas de usabilidad, evaluaciones de usabilidad, dispositivosmÃ³viles tÃ¡ctiles.
-INTRODUCCION: alguna implican un aprendizaje supervisado y otras uno no supervisado."
-INTRODUCCION:En el presente caso de estudio, se realiza un aprendizaje supervisado de la red mediante la utilizaciÃ³n del algoritmo OptimizaciÃ³n por Enjambre de PartÃ­culas (PSO).
-INTRODUCCION:OptimizaciÃ³n por Enjambre de PartÃ­culas es un mÃ©todo estocÃ¡stico de cÃ³mputo evolutivo inspirado en el comportamiento social de organismos tales como las bandadas de aves o los bancos  de peces,  erigiÃ©ndose en alternativa eficiente y atractiva a otros mÃ©todos estocÃ¡sticos mucho mÃ¡s extendidos, tales como los Algoritmos GenÃ©ticos (GA).
-INTRODUCCION:La utilizaciÃ³n de esta tÃ©cnica para definir el estado interno de la red se debe a sus grandes cualidades de exploraciÃ³n y explotaciÃ³n, de manera que se pueda abarcar todo el espacio de bÃºsqueda y asÃ­ obtener las mejores regiones donde poder encontrar un Ã³ptimo local que se acerque lo mÃ¡s posible a una soluciÃ³n Ã³ptima de la red, ademÃ¡s de que en estudios anteriores hechos por otros alumnos (Quezada, 2010),  este mÃ©todo presento mejores resultados que  los demÃ¡s algoritmos estocÃ¡sticos.
-INTRODUCCION:El proyecto continÃºa en el Capitulo 2 con la descripciÃ³n del estado del arte relacionado a las Redes Neuronales en su totalidad, donde podemos encontrar una reseÃ±a histÃ³rica, las tipologÃ­as, los tipos de redes, el aprendizaje y las aplicaciones donde se utilizan las Redes Neuronales.
-INTRODUCCION:Luego el Capitulo 3 describe las tÃ©cnicas evolutivas presentando a OptimizaciÃ³n por Enjambre de PartÃ­culas, definiendo sus elementos bÃ¡sicos, algoritmos, variantes y aplicaciones.
-INTRODUCCION:El Capitulo 4 consiste en la Redes Neuroevolutivas, donde se plantean los diferentes modelos elaborados para este proyecto, las mÃ©tricas a utilizar y los resultados de los modelos sobre estas.
-INTRODUCCION:Para continuar, el Capitulo 5  en el cual se discuten los resultados provenientes de la secciÃ³n 4, analizando uno por uno cada modelo propuesto, ademÃ¡s de una comparaciÃ³n de rendimiento entre el mejor modelo encontrado con un modelo propuesto en otro proyecto.
-INTRODUCCION:Finalmente, el Capitulo 6 consiste en las conclusiones del proyecto.
-INVESTIGACIONES PREVIAS: Ranking de HeurÃ­sticas?"
-INVESTIGACIONES PREVIAS:: El Mecanismo usado para escoger la heurÃ­stica de bajo nivel de la mejor manera.
-INVESTIGACIONES PREVIAS:Escoger la mejor de ellas.
-INVESTIGACIONES PREVIAS:Â¿Punto de DecisiÃ³n?
-INVESTIGACIONES PREVIAS:: Punto en el cual una heurÃ­stica debe ser escogida.
-INVESTIGACIONES PREVIAS:Â¿SelecciÃ³n actual de HeurÃ­sticas?
-INVESTIGACIONES PREVIAS:: Escoger siempre dentro del ranking de heurÃ­sticas, o en algÃºn momento otra opciÃ³n puede ser ocupada.
-INVESTIGACIONES PREVIAS:El diseÃ±o de las HiperheurÃ­sticas considera una serie de aspectos.
-INVESTIGACIONES PREVIAS:Un resumen de estos aspectos es presentado en la siguiente Figura
-INVESTIGACIONES PREVIAS:Con el propÃ³sito de validar lo descrito en los capÃ­tulos anteriores se ha construido una herramienta desarrollada con ECLiPSe, consistente en un solver de distintos problemas, destinado a permitir la ejecuciÃ³n de distintas pruebas.
-INVESTIGACIONES PREVIAS:En este capÃ­tulo se pretende dar una breve introducciÃ³n a ECLiPSe.
-INVESTIGACIONES PREVIAS:La forma de resolver los problemas de restricciones es escribir programas especializados, en lenguajes procedurales, que requieren de muchos esfuerzos en su desarrollo, y ademÃ¡s se hacen difÃ­ciles de mantener, modificar y extender.
-METODOLOGIA:En este capÃ­tulo se detallaran los distintos problemas ocupados por la hiperheurÃ­stica.
-METODOLOGIA:Estos problemas son los encargados de medir, a travÃ©s de las medidas de costo tomadas de ellos en la bÃºsqueda de su resoluciÃ³n, el desempeÃ±o de la hiperheurÃ­stica.
-METODOLOGIA:Para detallar cada uno de los problemas se procederÃ¡ a explicar en quÃ© consiste cada uno de ellos, su modelo matemÃ¡tico correspondiente, abarcando las variables, dominios y restricciones del problema.
-METODOLOGIA:Finalmente se darÃ¡ a conocer el algoritmo que es utilizado en ECLIPSE para lograr su funcionamiento.
-METODOLOGIA:El problema consiste en colocar N-Reinas en un tablero NxN, sin que ninguna de ellas se ataque entre sÃ­.
-METODOLOGIA:De esta manera, no se pueden encontrar dos reinas en la misma fila, columna o diagonal.
-METODOLOGIA:El tamaÃ±o del problema puede tomar valor con un N igual a 1 y tambiÃ©n con un N igual o mayor que 4.
-METODOLOGIA:A continuaciÃ³n se mostrara una figura con la soluciÃ³n del N-Reinas con un N igual a 10.
-RESULTADOS:Los resultados obtenidos en la tabla anterior muestran que la funciÃ³n de selecciÃ³n tuvo un magro desempeÃ±o con el primer problema, aunque con los siguientes problemas se comportÃ³ de una forma adecuada.
-RESULTADOS:Si bien podrÃ­a decirse que el desempeÃ±o de la funciÃ³n de selecciÃ³n en el segundo problema no fue de las mejores, hay que tener presente que hubo dos estrategias estÃ¡ticas que no lograron llegar a la resoluciÃ³n del problema en el tiempo dado, de esta manera la funciÃ³n de selecciÃ³n, al tener como base a estas mismas estrategias, experimentÃ³ tantos problemas como ellas en la bÃºsqueda de la soluciÃ³n.
-RESULTADOS:Con respecto a lo anterior, se puede observar que tanto las estrategias estÃ¡ticas nÃºmero 2 como la nÃºmero 6, no lograron encontrar una soluciÃ³n al problema nÃºmero 2, y a su vez necesitaron una gran cantidad de backtracks y nodos para poder encontrar una soluciÃ³n al problema nÃºmero 1.
-RESULTADOS:En las anteriores dos tablas es donde se puede apreciar que la cantidad de nodos casi se triplica con respecto a la cantidad de backtracks realizados en un mismo problema, lo cual se produce cuando existe una cantidad superior aproximada a cien backtracks.
-RESULTADOS:Como contraparte, en el problema nÃºmero 9 la funciÃ³n de selecciÃ³n tuvo un comportamiento ideal, ya que no realizÃ³ ningÃºn backtrack, pero fue posible realizar la visita a 53 nodos antes de encontrar la soluciÃ³n al problema.
-RESULTADOS:AdemÃ¡s la funciÃ³n de selecciÃ³n logrÃ³ encontrar soluciÃ³n al problema nÃºmero 2 en cada una de sus intervenciones, a pesar de los distintos cambios de ?
-RESULTADOS:La cantidad de nodos y su relaciÃ³n con los backtracks  se debe principalmente a la propagaciÃ³n y a la no satisfacciÃ³n de restricciones.
-RESULTADOS:Finalmente, la funciÃ³n de selecciÃ³n logrÃ³ estar dentro de los mÃ¡rgenes de las estrategias estÃ¡ticas, es decir se obtiene un comportamiento similar a ellas, y a travÃ©s del cambio de ?
-RESULTADOS:es posible lograr resultados bastante satisfactorios.
-RESULTADOS:A continuaciÃ³n se muestran los resultados obtenidos del problema Cuadrados MÃ¡gicos con distintos tamaÃ±os, medidos tanto en backtracks como en nodos.
+RES:La usabilidad en los productos software es una variable primordial en la mediciÃ³n del Ã©xitode un sistema de informaciÃ³n, asÃ­ como en la mediciÃ³n de la calidad de software.
+RES:Por esto, lausabilidad en dispositivos mÃ³viles tÃ¡ctiles se debe considerar en el desarrollo de nuevos productos,en especial considerando la gran competitividad existente en el mercado.
+RES:Uno de los mÃ©todos demediciÃ³n de usabilidad mÃ¡s utilizados es la evaluaciÃ³n heurÃ­stica, la cual analiza los productosutilizando principios heurÃ­sticos, o heurÃ­sticas de usabilidad.
+RES:La calidad de la mediciÃ³n depende,entre otros, de las heurÃ­sticas utilizadas.
+RES:Por lo anterior, este trabajo presenta una propuesta deprincipios heurÃ­sticos que se ajusta a la naturaleza de los dispositivos mÃ³viles tÃ¡ctiles, permitiendoasÃ­ una evaluaciÃ³n mas precisa y detallada.
+RES:La investigaciÃ³n se basÃ³ en una metodologÃ­a dedesarrollo de heurÃ­sticas de usabilidad, la cual presenta un proceso iterativo flexible que facilitala construcciÃ³n del conjunto de principios heurÃ­sticos.
+RES:Luego de tres iteraciones, incluyendo dosetapas de validaciÃ³n, se lograron obtener resultados promisorios.
+RES:Se requiere analizar mÃ¡s casosde estudio.
+RES:Palabras Clave: usabilidad, heurÃ­sticas de usabilidad, evaluaciones de usabilidad, dispositivosmÃ³viles tÃ¡ctiles.
+INT: alguna implican un aprendizaje supervisado y otras uno no supervisado."
+INT:En el presente caso de estudio, se realiza un aprendizaje supervisado de la red mediante la utilizaciÃ³n del algoritmo OptimizaciÃ³n por Enjambre de PartÃ­culas (PSO).
+INT:OptimizaciÃ³n por Enjambre de PartÃ­culas es un mÃ©todo estocÃ¡stico de cÃ³mputo evolutivo inspirado en el comportamiento social de organismos tales como las bandadas de aves o los bancos  de peces,  erigiÃ©ndose en alternativa eficiente y atractiva a otros mÃ©todos estocÃ¡sticos mucho mÃ¡s extendidos, tales como los Algoritmos GenÃ©ticos (GA).
+INT:La utilizaciÃ³n de esta tÃ©cnica para definir el estado interno de la red se debe a sus grandes cualidades de exploraciÃ³n y explotaciÃ³n, de manera que se pueda abarcar todo el espacio de bÃºsqueda y asÃ­ obtener las mejores regiones donde poder encontrar un Ã³ptimo local que se acerque lo mÃ¡s posible a una soluciÃ³n Ã³ptima de la red, ademÃ¡s de que en estudios anteriores hechos por otros alumnos (Quezada, 2010),  este mÃ©todo presento mejores resultados que  los demÃ¡s algoritmos estocÃ¡sticos.
+INT:El proyecto continÃºa en el Capitulo 2 con la descripciÃ³n del estado del arte relacionado a las Redes Neuronales en su totalidad, donde podemos encontrar una reseÃ±a histÃ³rica, las tipologÃ­as, los tipos de redes, el aprendizaje y las aplicaciones donde se utilizan las Redes Neuronales.
+INT:Luego el Capitulo 3 describe las tÃ©cnicas evolutivas presentando a OptimizaciÃ³n por Enjambre de PartÃ­culas, definiendo sus elementos bÃ¡sicos, algoritmos, variantes y aplicaciones.
+INT:El Capitulo 4 consiste en la Redes Neuroevolutivas, donde se plantean los diferentes modelos elaborados para este proyecto, las mÃ©tricas a utilizar y los resultados de los modelos sobre estas.
+INT:Para continuar, el Capitulo 5  en el cual se discuten los resultados provenientes de la secciÃ³n 4, analizando uno por uno cada modelo propuesto, ademÃ¡s de una comparaciÃ³n de rendimiento entre el mejor modelo encontrado con un modelo propuesto en otro proyecto.
+INT:Finalmente, el Capitulo 6 consiste en las conclusiones del proyecto.
+INVPRE: Ranking de HeurÃ­sticas?"
+INVPRE:: El Mecanismo usado para escoger la heurÃ­stica de bajo nivel de la mejor manera.
+INVPRE:Escoger la mejor de ellas.
+INVPRE:Â¿Punto de DecisiÃ³n?
+INVPRE:: Punto en el cual una heurÃ­stica debe ser escogida.
+INVPRE:Â¿SelecciÃ³n actual de HeurÃ­sticas?
+INVPRE:: Escoger siempre dentro del ranking de heurÃ­sticas, o en algÃºn momento otra opciÃ³n puede ser ocupada.
+INVPRE:El diseÃ±o de las HiperheurÃ­sticas considera una serie de aspectos.
+INVPRE:Un resumen de estos aspectos es presentado en la siguiente Figura
+INVPRE:Con el propÃ³sito de validar lo descrito en los capÃ­tulos anteriores se ha construido una herramienta desarrollada con ECLiPSe, consistente en un solver de distintos problemas, destinado a permitir la ejecuciÃ³n de distintas pruebas.
+INVPRE:En este capÃ­tulo se pretende dar una breve introducciÃ³n a ECLiPSe.
+INVPRE:La forma de resolver los problemas de restricciones es escribir programas especializados, en lenguajes procedurales, que requieren de muchos esfuerzos en su desarrollo, y ademÃ¡s se hacen difÃ­ciles de mantener, modificar y extender.
+MET:En este capÃ­tulo se detallaran los distintos problemas ocupados por la hiperheurÃ­stica.
+MET:Estos problemas son los encargados de medir, a travÃ©s de las medidas de costo tomadas de ellos en la bÃºsqueda de su resoluciÃ³n, el desempeÃ±o de la hiperheurÃ­stica.
+MET:Para detallar cada uno de los problemas se procederÃ¡ a explicar en quÃ© consiste cada uno de ellos, su modelo matemÃ¡tico correspondiente, abarcando las variables, dominios y restricciones del problema.
+MET:Finalmente se darÃ¡ a conocer el algoritmo que es utilizado en ECLIPSE para lograr su funcionamiento.
+MET:El problema consiste en colocar N-Reinas en un tablero NxN, sin que ninguna de ellas se ataque entre sÃ­.
+MET:De esta manera, no se pueden encontrar dos reinas en la misma fila, columna o diagonal.
+MET:El tamaÃ±o del problema puede tomar valor con un N igual a 1 y tambiÃ©n con un N igual o mayor que 4.
+MET:A continuaciÃ³n se mostrara una figura con la soluciÃ³n del N-Reinas con un N igual a 10.
+RESLT:Los resultados obtenidos en la tabla anterior muestran que la funciÃ³n de selecciÃ³n tuvo un magro desempeÃ±o con el primer problema, aunque con los siguientes problemas se comportÃ³ de una forma adecuada.
+RESLT:Si bien podrÃ­a decirse que el desempeÃ±o de la funciÃ³n de selecciÃ³n en el segundo problema no fue de las mejores, hay que tener presente que hubo dos estrategias estÃ¡ticas que no lograron llegar a la resoluciÃ³n del problema en el tiempo dado, de esta manera la funciÃ³n de selecciÃ³n, al tener como base a estas mismas estrategias, experimentÃ³ tantos problemas como ellas en la bÃºsqueda de la soluciÃ³n.
+RESLT:Con respecto a lo anterior, se puede observar que tanto las estrategias estÃ¡ticas nÃºmero 2 como la nÃºmero 6, no lograron encontrar una soluciÃ³n al problema nÃºmero 2, y a su vez necesitaron una gran cantidad de backtracks y nodos para poder encontrar una soluciÃ³n al problema nÃºmero 1.
+RESLT:En las anteriores dos tablas es donde se puede apreciar que la cantidad de nodos casi se triplica con respecto a la cantidad de backtracks realizados en un mismo problema, lo cual se produce cuando existe una cantidad superior aproximada a cien backtracks.
+RESLT:Como contraparte, en el problema nÃºmero 9 la funciÃ³n de selecciÃ³n tuvo un comportamiento ideal, ya que no realizÃ³ ningÃºn backtrack, pero fue posible realizar la visita a 53 nodos antes de encontrar la soluciÃ³n al problema.
+RESLT:AdemÃ¡s la funciÃ³n de selecciÃ³n logrÃ³ encontrar soluciÃ³n al problema nÃºmero 2 en cada una de sus intervenciones, a pesar de los distintos cambios de ?
+RESLT:La cantidad de nodos y su relaciÃ³n con los backtracks  se debe principalmente a la propagaciÃ³n y a la no satisfacciÃ³n de restricciones.
